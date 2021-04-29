@@ -1,0 +1,23 @@
+body{
+    width: 1440px;
+    background:hsl(257, 40%, 49%);
+    background-image: 'image(bg-desktop.svg)';
+    color:hsl(0,0%,100%);
+    font-family: 'Open sans', sans-serif;
+    text-align:right;
+}
+
+h1{
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: right;
+}
+
+h2{
+    font-weight: 400;
+    font-family: 'open sans', sans-serif;
+    display: flex;
+    justify-self: right;
+}
+
