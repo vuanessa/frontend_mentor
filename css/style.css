@@ -62,8 +62,7 @@ button{
     list-style-type:none;
     display:flex;
     justify-content: flex-end;
-    color: #fff;
-    border: solid white;
+    color: #fff; 
 }
 
 footer{
