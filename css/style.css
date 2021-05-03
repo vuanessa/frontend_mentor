@@ -33,6 +33,7 @@ img{
 
 .flex{
     display: flex;
+    margin: 50px 0;
 }
 
 .flex > div{
@@ -58,19 +59,35 @@ button{
 
 .redes-sociais{
     padding: 0;
-    list-style-type: none;
-    display: flex;
+    list-style-type:none;
+    display:flex;
     justify-content: flex-end;
+    color: #fff;
+    border: solid white;
 }
 
-.redes-sociais a {
-    border-radius: 50%;
-    border: 1px solid #fff;
-    color: #fff;
-    height: 40px;
-    width: 40%;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
+footer{
+    text-align: center;
+    font-size: small;
+}
+
+@media screen and (max-width: 768px){
+    .flex{
+        flex-direction: column;
+    }
+    
+    .flex > div:first-child{
+        flex:1;
+        margin-right: 0;
+    }
+    
+    .flex > div:last-child{
+       flex:1;
+       margin-left: 0;
+       text-align: center;         
+    }
+
+    .redes-sociais{
+        justify-content: center;
+    }
 }
