@@ -25,7 +25,7 @@ img{
     max-width: 100%;
 }
 
-.container{
+.container-container-principal{
     width: 1200px;
     max-width: 100%;
     margin:auto;
@@ -42,6 +42,7 @@ img{
 
 .flex > div:first-child{
     margin-right: 20px;
+
 }
 
 .flex > div:last-child{
@@ -59,10 +60,22 @@ button{
 
 .redes-sociais{
     padding: 0;
-    list-style-type:none;
+    list-style-type: none;
     display:flex;
     justify-content: flex-end;
     color: #fff; 
+}
+
+.redes-sociais a {
+    border-radius: 50%;
+    border: 1px solid #fff;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    text-decoration: none;
 }
 
 footer{
